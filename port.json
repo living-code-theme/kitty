@@ -1,0 +1,49 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Kitty",
+  "slug": "kitty",
+  "group": "Terminals",
+  "emoji": "🐈",
+  "description": "Living Code for Kitty. Four color flavors for terminal text, selections, cursors, borders, tabs and the complete ANSI palette.",
+  "homepage": "https://sw.kovidgoyal.net/kitty/",
+  "quick": "Download and include the theme",
+  "aliases": [
+    "kitten",
+    "terminal"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-night.conf",
+    "living-code-frost.conf",
+    "living-code-paper.conf",
+    "living-code-signal.conf"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "Kitty running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "Kitty running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "Kitty running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "Kitty running Living Code Signal"
+    }
+  ]
+}
